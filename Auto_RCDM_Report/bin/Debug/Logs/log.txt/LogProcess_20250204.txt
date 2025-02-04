@@ -1,0 +1,10 @@
+04/02/2025 13:52:57.432 : GenRCDM1001_CDM_Report : เกิดข้อผิดพลาดในไฟล์ rptRCDM1001_CDM 29228_19120_{73A1690A-22A5-4F28-87B1-3B49F0119B30}.rpt:
+เกิดข้อผิดพลาดในสูตร  fTyp: 
+'//if ({SP_RPT_RCDM1001_CDM;1.T_T_CDE} = '78') then'
+ไม่รู้จักชื่อฟิลด์นี้
+รายละเอียด: errorKind
+04/02/2025 13:52:58.042 : GenRCDM1003_D_Report : เกิดข้อผิดพลาดในไฟล์ rptRCDM1003_D_CDM 29228_19120_{0BF9F671-0A47-4E9B-B48D-D48CB6A81C0D}.rpt:
+เกิดข้อผิดพลาดในสูตร  fRTotalOTPTrn: 
+'if isnull(sum({SP_RPT_RCDM1002_D;1.COUNT_OTP_TRN})) then'
+ไม่รู้จักชื่อฟิลด์นี้
+รายละเอียด: errorKind
