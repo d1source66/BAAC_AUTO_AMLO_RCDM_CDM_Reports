@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+	<configSections>
+	</configSections>
+	<startup>
+		<supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.7.2" />
+	</startup>
+	<connectionStrings>
+		<add name="ConnDBPath" connectionString="Data Source=BAACAMSPR01\MSSQLSERVER;Initial Catalog=AMSTLF;User ID=msmonitor;Password=msmonitor;"
+		  providerName="System.Data.ProviderName" />
+		<add name="RunTLFText.Properties.Settings.AMSTLFConnectionString"
+		  connectionString="Data Source=172.29.28.119;Initial Catalog=AMSTLF;User ID=msmonitor;Password=&quot;msmonitor;&quot;"
+		  providerName="System.Data.SqlClient" />
+	</connectionStrings>
+	<appSettings>
+		<add key="LTFFilePath" value="C:\\fromtandem\\TLFTEXT4.txt" />
+		<add key="ReportFilePath" value="D:\\ReportFiles" />
+		<add key="TemplateReportPath" value="D:\\CDM_AMLO_Reports" />
+		<add key="LogFilePath" value="D:\\RCDMReportLogFiles" />
+		<add key="DeleteData" value="90" />
+		<!-- Server Baac UAT -->
+		<add key="ClientSettingsProvider.ServiceUri" value="" />
+		<add key="IPServerName" value="MS30IPM66209\\MSSQLSERVER04" />
+		<add key="DBName" value="TEST" />
+		<add key="UserName" value="amsmonitor" />
+		<add key="Password" value="amsmonitor;" />
+	</appSettings>
+	<system.web>
+		<membership defaultProvider="ClientAuthenticationMembershipProvider">
+			<providers>
+				<add name="ClientAuthenticationMembershipProvider" type="System.Web.ClientServices.Providers.ClientFormsAuthenticationMembershipProvider, System.Web.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" serviceUri="" />
+			</providers>
+		</membership>
+		<roleManager defaultProvider="ClientRoleProvider" enabled="true">
+			<providers>
+				<add name="ClientRoleProvider" type="System.Web.ClientServices.Providers.ClientRoleProvider, System.Web.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" serviceUri="" cacheTimeout="86400" />
+			</providers>
+		</roleManager>
+	</system.web>
+</configuration>
