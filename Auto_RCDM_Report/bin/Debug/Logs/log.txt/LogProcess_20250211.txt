@@ -1,0 +1,10 @@
+11/02/2025 13:27:17.111 : GenRCDM1001_CDM_Report : เกิดข้อผิดพลาดในไฟล์ rptRCDM1001_CDM 9656_8980_{1F5C1958-6F9D-434F-B1A4-4B501682E095}.rpt:
+เกิดข้อผิดพลาดในสูตร  fRP3: 
+'//{SP_RPT_RCDM1001_CDM;1.T_RESP_BYTE_2}'
+ไม่รู้จักชื่อฟิลด์นี้
+รายละเอียด: errorKind
+11/02/2025 13:27:18.043 : GenRCDM1003_D_Report : เกิดข้อผิดพลาดในไฟล์ rptRCDM1003_D_CDM 9656_8980_{DDEBC21B-73D6-487B-B330-C362C59EC732}.rpt:
+เกิดข้อผิดพลาดในสูตร  fRTotalOTPTrn: 
+'if isnull(sum({SP_RPT_RCDM1002_D;1.COUNT_OTP_TRN})) then'
+ไม่รู้จักชื่อฟิลด์นี้
+รายละเอียด: errorKind
