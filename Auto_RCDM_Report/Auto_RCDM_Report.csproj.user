@@ -2,7 +2,7 @@
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <ProjectView>ProjectFiles</ProjectView>
-    <PublishUrlHistory>D:\D1_Project\BACC\250211_App_GenReports\|D:\D1_Project\BACC\250131_AutoGenReport\</PublishUrlHistory>
+    <PublishUrlHistory>D:\D1_Project\BACC\250218_AutoGen_Reports\|D:\D1_Project\BACC\250211_App_GenReports\|D:\D1_Project\BACC\250131_AutoGenReport\</PublishUrlHistory>
     <InstallUrlHistory />
     <SupportUrlHistory />
     <UpdateUrlHistory />

@@ -49,7 +49,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>GkIPRsZ08hEBoUpPG5/UsE/yRtavzCxp7Di/CbhBChc=</dsig:DigestValue>
+        <dsig:DigestValue>ARMJp6609lfYhxPksSFBFKK2BaB9dG11Zwa5hrQO3pQ=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -293,13 +293,13 @@
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name="Auto_RCDM_Report.exe.config" size="2037">
+  <file name="Auto_RCDM_Report.exe.config" size="2036">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>ZTAYr7E5jZh2NwlQIg0u6ZKWpyum+hS/xbdKig58Sy0=</dsig:DigestValue>
+      <dsig:DigestValue>lf2ExGKzOaXOamASIdW0Hawkx2pt3Fkn3Kk0D/fGhSM=</dsig:DigestValue>
     </hash>
   </file>
   <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">

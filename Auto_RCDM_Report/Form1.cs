@@ -207,7 +207,7 @@ namespace Auto_RCDM_Report
 				cmd.Parameters.Add(new SqlParameter("T_Date", date));
 
 				DateTime dtReport = (dpDisplayReportDate.Text != "") ? DateTime.Parse(dpDisplayReportDate.Text) : DateTime.Now;
-				string pathReportFile = @"D:\ReportFiles\" + dtReport.Year + @"\" + dtReport.Month.ToString().PadLeft(2, '0') + @"\" + dtReport.Day.ToString().PadLeft(2, '0');
+				string pathReportFile = @"D:\ReportFile\" + "M" + dtReport.Month.ToString().PadLeft(2, '0') + @"\" + dtReport.Day.ToString().PadLeft(2, '0');
 				ReportDocument cryRpt = new ReportDocument();
 
 
@@ -268,7 +268,7 @@ namespace Auto_RCDM_Report
 				cmd.Parameters.Add(new SqlParameter("T_Date", date));
 
 				DateTime dtReport = (dpDisplayReportDate.Text != "") ? DateTime.Parse(dpDisplayReportDate.Text) : DateTime.Now;
-				string pathReportFile = @"D:\ReportFiles\" + dtReport.Year + @"\" + dtReport.Month.ToString().PadLeft(2, '0') + @"\" + dtReport.Day.ToString().PadLeft(2, '0');
+				string pathReportFile = @"D:\ReportFile\" + "M" + dtReport.Month.ToString().PadLeft(2, '0') + @"\" + dtReport.Day.ToString().PadLeft(2, '0');
 				ReportDocument cryRpt = new ReportDocument();
 
 				string rcdm1002 = AppDomain.CurrentDomain.BaseDirectory + @"\" + "rptRCDM1002_M_CDM.rpt";// @TemplateReportPath + @"\" + "rptRCDM1002_M_CDM.rpt";
@@ -327,7 +327,7 @@ namespace Auto_RCDM_Report
 				cmd.Parameters.Add(new SqlParameter("T_Date", date));
 
 				DateTime dtReport = (dpDisplayReportDate.Text != "") ? DateTime.Parse(dpDisplayReportDate.Text) : DateTime.Now;
-				string pathReportFile = @"D:\ReportFiles\" + dtReport.Year + @"\" + dtReport.Month.ToString().PadLeft(2, '0') + @"\" + dtReport.Day.ToString().PadLeft(2, '0');
+				string pathReportFile = @"D:\ReportFile\" + "M" + dtReport.Month.ToString().PadLeft(2, '0') + @"\" + dtReport.Day.ToString().PadLeft(2, '0');
 				ReportDocument cryRpt = new ReportDocument();
 
 				string rcdm1002 = AppDomain.CurrentDomain.BaseDirectory + @"\" + "rptRCDM1003_D_CDM.rpt";// @TemplateReportPath + @"\" + "rptRCDM1003_D_CDM.rpt";
