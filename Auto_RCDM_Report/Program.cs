@@ -21,7 +21,7 @@ namespace Auto_RCDM_Report
         static string Password = "";
         static string Database = "";
         static string ReportPath = "";
-
+        static string LogPath = "";
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
@@ -37,9 +37,9 @@ namespace Auto_RCDM_Report
             Password = ModConf.ReadIni(iniFile, "DB", "Password");
             Database = ModConf.ReadIni(iniFile, "DB", "Database");
             ReportPath = ModConf.ReadIni(iniFile, "PathFile", "PathReport");
+            LogPath = ModConf.ReadIni(iniFile, "PathFile", "PathLogFile");
 
-
-            Application.Run(new frmAuto_RCDM_Reports(Server, User, Password, Database, ReportPath));
+            Application.Run(new frmAuto_RCDM_Reports(Server, User, Password, Database, ReportPath, LogPath));
             strPathDateRun = ModConf.ReadIni(iniFile, "PathFile", "PathTextDateRun");
 
 

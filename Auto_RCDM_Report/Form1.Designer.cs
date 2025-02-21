@@ -51,6 +51,9 @@ namespace Auto_RCDM_Report
             this.label2 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.txtFixPathReport = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.txtPathLog = new System.Windows.Forms.TextBox();
             this.groupBox2.SuspendLayout();
             this.groupBox4.SuspendLayout();
             this.SuspendLayout();
@@ -204,7 +207,7 @@ namespace Auto_RCDM_Report
             // 
             // txtFormatReportDate
             // 
-            this.txtFormatReportDate.Location = new System.Drawing.Point(29, 194);
+            this.txtFormatReportDate.Location = new System.Drawing.Point(170, 186);
             this.txtFormatReportDate.Name = "txtFormatReportDate";
             this.txtFormatReportDate.ReadOnly = true;
             this.txtFormatReportDate.Size = new System.Drawing.Size(100, 22);
@@ -213,7 +216,7 @@ namespace Auto_RCDM_Report
             // 
             // btnConnecting
             // 
-            this.btnConnecting.Location = new System.Drawing.Point(14, 128);
+            this.btnConnecting.Location = new System.Drawing.Point(14, 154);
             this.btnConnecting.Name = "btnConnecting";
             this.btnConnecting.Size = new System.Drawing.Size(128, 47);
             this.btnConnecting.TabIndex = 23;
@@ -223,17 +226,17 @@ namespace Auto_RCDM_Report
             // 
             // txtDBServer
             // 
-            this.txtDBServer.Location = new System.Drawing.Point(148, 102);
+            this.txtDBServer.Location = new System.Drawing.Point(148, 128);
             this.txtDBServer.Multiline = true;
             this.txtDBServer.Name = "txtDBServer";
             this.txtDBServer.ReadOnly = true;
-            this.txtDBServer.Size = new System.Drawing.Size(228, 78);
+            this.txtDBServer.Size = new System.Drawing.Size(228, 52);
             this.txtDBServer.TabIndex = 13;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(15, 102);
+            this.label2.Location = new System.Drawing.Point(19, 127);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(77, 17);
             this.label2.TabIndex = 12;
@@ -250,6 +253,9 @@ namespace Auto_RCDM_Report
             // 
             // groupBox4
             // 
+            this.groupBox4.Controls.Add(this.txtPathLog);
+            this.groupBox4.Controls.Add(this.label6);
+            this.groupBox4.Controls.Add(this.txtFixPathReport);
             this.groupBox4.Controls.Add(this.txtFormatReportDate);
             this.groupBox4.Controls.Add(this.btnConnecting);
             this.groupBox4.Controls.Add(this.txtDBServer);
@@ -264,6 +270,33 @@ namespace Auto_RCDM_Report
             this.groupBox4.TabIndex = 40;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Default Master Config";
+            // 
+            // txtFixPathReport
+            // 
+            this.txtFixPathReport.Location = new System.Drawing.Point(276, 186);
+            this.txtFixPathReport.Name = "txtFixPathReport";
+            this.txtFixPathReport.ReadOnly = true;
+            this.txtFixPathReport.Size = new System.Drawing.Size(100, 22);
+            this.txtFixPathReport.TabIndex = 27;
+            this.txtFixPathReport.Visible = false;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(19, 95);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(91, 17);
+            this.label6.TabIndex = 28;
+            this.label6.Text = "Log File Path";
+            // 
+            // txtPathLog
+            // 
+            this.txtPathLog.Location = new System.Drawing.Point(148, 92);
+            this.txtPathLog.Name = "txtPathLog";
+            this.txtPathLog.ReadOnly = true;
+            this.txtPathLog.Size = new System.Drawing.Size(228, 22);
+            this.txtPathLog.TabIndex = 29;
+            this.txtPathLog.Text = "D:\\Logs\\AMLO_Reports";
             // 
             // frmAuto_RCDM_Reports
             // 
@@ -314,6 +347,9 @@ namespace Auto_RCDM_Report
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.GroupBox groupBox4;
+        private System.Windows.Forms.TextBox txtFixPathReport;
+        private System.Windows.Forms.TextBox txtPathLog;
+        private System.Windows.Forms.Label label6;
     }
 }
 

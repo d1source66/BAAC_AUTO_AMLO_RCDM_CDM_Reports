@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Auto_RCDM_Report.exe" size="23040">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Auto_RCDM_Report.exe" size="23552">
       <assemblyIdentity name="Auto_RCDM_Report" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>ARMJp6609lfYhxPksSFBFKK2BaB9dG11Zwa5hrQO3pQ=</dsig:DigestValue>
+        <dsig:DigestValue>iysEXIHZE9a6Zn7hqVS0GazoKK+98RCprl5IEFB+EQ8=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
